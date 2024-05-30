@@ -1,6 +1,14 @@
+import { headerLogo } from '../assets/images'
+
 const Nav = () => {
   return (
-    <div>Nav</div>
+    <header>
+      <nav>
+        <a href="#">
+          <img src={headerLogo} alt="nike logo" />
+        </a>
+      </nav>
+    </header>
   )
 }
 
